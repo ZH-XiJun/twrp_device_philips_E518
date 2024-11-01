@@ -34,3 +34,4 @@ auto                  vfat     /devices/platform/mt_usb*                        
 /odmdtbo              emmc     /dev/block/platform/bootdevice/by-name/odmdtbo         flags=display=odmdtbo
 /loader_ext1          emmc     /dev/block/platform/bootdevice/by-name/loader_ext1     flags=display=loader_ext1
 /loader_ext2          emmc     /dev/block/platform/bootdevice/by-name/loader_ext2     flags=display=loader_ext2
+/external_sd          vfat     /dev/block/platform/bootdevice/mmcblk1p1               flags=display=External_SD;storage;wipeingui;removable
